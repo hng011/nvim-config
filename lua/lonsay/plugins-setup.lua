@@ -27,8 +27,10 @@ end
 -- :PackerSync to update changes
 return packer.startup(function(use)
   use("wbthomason/packer.nvim")
+ 
   use { "rebelot/kanagawa.nvim" } 
-  
+  use { "vim-airline/vim-airline" }
+
   if packer_bootstrap then
     require("packer").sync()
   end
