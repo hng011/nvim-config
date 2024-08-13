@@ -5,8 +5,8 @@ opt.relativenumber = true
 opt.number = true
 
 -- tabs & indentation 
-opt.tabstop = 2
-opt.shiftwidth = 2
+opt.tabstop = 4
+opt.shiftwidth = 4
 opt.expandtab = true
 opt.autoindent = true
 
@@ -19,9 +19,9 @@ opt.smartcase = true
 
 -- cursor style
 opt.guicursor = {
-  "n-v-c:block-Cursor/lCursor",
-  "i:block-Cursor/lCursor-blinkwait100-blinkon75-blinkoff100",
-  "r-cr:hor20-Cursor/lCursor"
+    "n-v-c:block-Cursor/lCursor",
+    "i:block-Cursor/lCursor-blinkwait100-blinkon75-blinkoff100",
+    "r-cr:hor20-Cursor/lCursor"
 }
 
 -- cursor line
