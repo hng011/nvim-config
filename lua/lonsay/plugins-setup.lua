@@ -30,7 +30,10 @@ return packer.startup(function(use)
  
     use { "rebelot/kanagawa.nvim" } 
     use { "vim-airline/vim-airline" }
-
+    
+    use { 'nvim-tree/nvim-tree.lua' }
+    use { 'nvim-tree/nvim-web-devicons' } 
+    
     if packer_bootstrap then
         require("packer").sync()
     end
